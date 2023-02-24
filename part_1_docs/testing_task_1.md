@@ -19,23 +19,31 @@ class CardGame:
 
   def check_for_ace(self, card):
     if card.value = 1:
+      # Single equals does not compare 2 values. This should be '=='
       return True
     else
+    # No colon after else statement
       return False
    
 
   dif highest_card(self, card1 card2):
+  # Typo 'dif' rather than 'def'. no comma between 'card1 card2'.
   if card1.value > card2.value:
+    # Indent error
     return card
+    # 'card' instead of 'card1'
   else:
     return card2
   
 
 
 def cards_total(self, cards):
+  # Wrong indent level. 
   total
+  # No value set for variable 'total'
   for card in cards:
     total += card.value
     return "You have a total of" + total
+    # Add space before end of string. Convert total to str. Wrong indent level for return. 
   
 ```
